@@ -8,7 +8,7 @@ This repository contains utility scripts designed to streamline common Windows a
 
 ## Scripts
 
-### Dell.bat
+### start-dell-services.bat
 **Purpose:** Dell Services Management
 
 Starts all Dell-related services including:
@@ -19,7 +19,7 @@ Starts all Dell-related services including:
 
 **Usage:**
 ```batch
-Dell.bat
+start-dell-services.bat
 ```
 
 **Requirements:**
@@ -28,7 +28,7 @@ Dell.bat
 
 ---
 
-### Procesor.bat
+### system-maintenance.bat
 **Purpose:** System Maintenance and Repair
 
 Performs comprehensive system diagnostics and maintenance tasks:
@@ -40,7 +40,7 @@ Performs comprehensive system diagnostics and maintenance tasks:
 
 **Usage:**
 ```batch
-Procesor.bat
+system-maintenance.bat
 ```
 
 **Requirements:**
@@ -52,7 +52,7 @@ Procesor.bat
 
 ---
 
-### Sql.bat
+### start-sql-services.bat
 **Purpose:** SQL Server Express Services Startup
 
 Starts all SQL Server Express instance services:
@@ -66,7 +66,7 @@ Starts all SQL Server Express instance services:
 
 **Usage:**
 ```batch
-Sql.bat
+start-sql-services.bat
 ```
 
 **Requirements:**
@@ -75,7 +75,7 @@ Sql.bat
 
 ---
 
-### Ulitmate performance.bat
+### ultimate-performance.bat
 **Purpose:** Ultimate Performance Power Plan Configuration
 
 Configures Windows to use the Ultimate Performance power plan:
@@ -84,7 +84,7 @@ Configures Windows to use the Ultimate Performance power plan:
 
 **Usage:**
 ```batch
-"Ulitmate performance.bat"
+ultimate-performance.bat
 ```
 
 **Requirements:**
@@ -95,7 +95,7 @@ Configures Windows to use the Ultimate Performance power plan:
 
 ---
 
-### update.ps1
+### winget-selective-update.ps1
 **Purpose:** Selective Package Update Script
 
 A PowerShell script that automatically updates all installed Windows packages while excluding specific applications (JetBrains products and Spotify).
@@ -109,7 +109,7 @@ A PowerShell script that automatically updates all installed Windows packages wh
 
 **Usage:**
 ```powershell
-.\update.ps1
+.\winget-selective-update.ps1
 ```
 
 Or right-click and select "Run with PowerShell"
